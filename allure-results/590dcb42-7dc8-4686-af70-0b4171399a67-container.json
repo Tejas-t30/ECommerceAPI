@@ -1,0 +1,1 @@
+{"uuid":"590dcb42-7dc8-4686-af70-0b4171399a67","name":"testCases.TC003_UserAPI","children":["977ba69d-d182-42cd-ae57-0da164927584"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1748517788298,"stop":1748517788732}],"afters":[],"start":1748517788248,"stop":1748517793476}

@@ -1,0 +1,1 @@
+{"uuid":"2332f493-e3e3-47b1-bc05-dc9259c292ea","name":"testCases.TC004_CartAPI","children":["1001d1c5-c211-4a43-a897-4eac5c0b6e30"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1748606400989,"stop":1748606401419}],"afters":[],"start":1748606400943,"stop":1748606406189}
