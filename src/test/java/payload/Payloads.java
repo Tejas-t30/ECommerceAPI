@@ -70,4 +70,12 @@ public class Payloads {
         return cart;
     }
 
+    public static AuthLogin authLoginPayload()
+    {
+        String username=faker.name().username();
+        String password=faker.internet().password();
+        AuthLogin login=new AuthLogin(username, password);
+        return login;
+    }
+
 }

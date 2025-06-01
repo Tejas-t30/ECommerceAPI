@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="API TestSuite" thread-count="2" >
+<suite name="API TestSuite" thread-count="5" >
     <listeners>
         <listener class-name="utils.ExtentReporter"/>
     </listeners>
@@ -22,6 +22,11 @@
     <test  name="Cart API Test">
         <classes>
             <class name="testCases.TC004_CartAPI"/>
+        </classes>
+    </test>
+    <test  name="Login Test">
+        <classes>
+            <class name="testCases.TC005_AuthLogin"/>
         </classes>
     </test>
 </suite>

@@ -38,6 +38,7 @@ public class Routes {
 
 
     //Login
+    public static final String LOGIN_AUTH="/auth/login";
 
 
 }

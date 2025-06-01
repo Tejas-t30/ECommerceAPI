@@ -4,7 +4,6 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
 import java.util.Map;
-
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
