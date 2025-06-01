@@ -10,6 +10,8 @@
             <class name="testCases.TC002_ProductDataDrivenTest"/>
             <class name="testCases.TC003_UserAPI"/>
             <class name="testCases.TC004_CartAPI"/>
+            <class name="testCases.TC005_AuthLogin"/>
+            <class name="testCases.SchemaValidation"/>
         </classes>
     </test>
 </suite>
