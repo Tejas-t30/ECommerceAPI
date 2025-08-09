@@ -135,7 +135,7 @@ public class TC001_ProductAPI extends BaseClass{
         .when()
                 .post(Routes.CREATE_PRODUCT)
         .then()
-                .statusCode(200)
+                .statusCode(201)
                 .body("id",notNullValue())
                 .body("title", equalTo(newProduct.getTitle()))
                .log().body()

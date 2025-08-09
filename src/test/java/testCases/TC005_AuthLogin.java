@@ -23,7 +23,7 @@ public class TC005_AuthLogin extends BaseClass {
         .when()
                 .post(Routes.LOGIN_AUTH)
         .then()
-                .statusCode(200)
+                .statusCode(201)
                 .body("token", notNullValue())
                 .log().body();
     }

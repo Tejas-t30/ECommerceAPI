@@ -159,7 +159,7 @@ public class TC004_CartAPI extends BaseClass {
         .when()
                 .post(Routes.CREATE_CART)
         .then()
-                .statusCode(200)
+                .statusCode(201)
                 .log().body()
                 //.body("userId", equalTo(2))
                 .body("id", notNullValue()) // Validate that the cart ID in response is not null

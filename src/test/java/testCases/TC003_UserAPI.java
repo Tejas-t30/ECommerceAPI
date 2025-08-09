@@ -100,7 +100,7 @@ public class TC003_UserAPI extends BaseClass{
         .when()
                 .post(Routes.CREATE_USER)
         .then()
-                .statusCode(200)
+                .statusCode(201)
                 .log().body()
                 .body("id", notNullValue())
                 .extract().response().jsonPath().getInt("id");
